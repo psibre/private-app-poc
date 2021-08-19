@@ -1,0 +1,15 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'log4j', name: 'log4j', version: '1.2.14'
+}
+
+application {
+    mainClass = 'Poc'
+}
